@@ -300,17 +300,17 @@ export default function CalculatePage() {
                 <TabsList className="grid w-full grid-cols-2">
                   <TabsTrigger value="not-following-back">
                     <UserMinus className="h-4 w-4 mr-2" />
-                    Don't Follow Back ({notFollowingBack.length})
+                    Don&apos;t Follow Back ({notFollowingBack.length})
                   </TabsTrigger>
                   <TabsTrigger value="not-following-you">
                     <UserPlus className="h-4 w-4 mr-2" />
-                    You Don't Follow ({notFollowingYou.length})
+                    You Don&apos;t Follow ({notFollowingYou.length})
                   </TabsTrigger>
                 </TabsList>
                 <TabsContent value="not-following-back">
                   <div className="flex items-center justify-between mb-4">
                     <p className="text-sm text-muted-foreground">
-                      People you follow who don't follow you back
+                      People you follow who don&apos;t follow you back
                     </p>
                     {notFollowingBack.length > 0 && (
                       <Button
@@ -335,7 +335,7 @@ export default function CalculatePage() {
                 <TabsContent value="not-following-you">
                   <div className="flex items-center justify-between mb-4">
                     <p className="text-sm text-muted-foreground">
-                      People who follow you but you don't follow back
+                      People who follow you but you don&apos;t follow back
                     </p>
                     {notFollowingYou.length > 0 && (
                       <Button
