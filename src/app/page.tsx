@@ -23,10 +23,10 @@ export default function Home() {
                   Welcome to <span className='text-primary'>Ghost Pals</span>
                 </CardTitle>
                 <CardDescription className='text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mt-4'>
-                  Ever wondered who you follow that doesn't follow you back on
-                  Instagram? Ghost Pals helps you uncover those 'ghost'
+                  Ever wondered who you follow that doesn&apos;t follow you back on
+                  Instagram? Ghost Pals helps you uncover those &apos;ghost&apos;
                   accounts. Simply upload your followers and following lists,
-                  and we'll show you the difference.
+                  and we&apos;ll show you the difference.
                 </CardDescription>
               </CardHeader>
               <CardContent className='flex justify-center mt-6'>
@@ -52,7 +52,7 @@ export default function Home() {
               </h2>
               <p className='text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed'>
                 To use Ghost Pals, you need to request your data from Instagram.
-                Here's how:
+                Here&apos;s how:
               </p>
             </div>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 max-w-5xl mx-auto'>
@@ -73,8 +73,8 @@ export default function Home() {
                     2. Access Your Activity
                   </CardTitle>
                   <CardDescription>
-                    Tap the menu icon, then go to 'Your Activity' and select
-                    'Download Your Information'.
+                    Tap the menu icon, then go to &apos;Your Activity&apos; and select
+                    &apos;Download Your Information&apos;.
                   </CardDescription>
                 </CardHeader>
               </Card>
@@ -84,8 +84,8 @@ export default function Home() {
                     3. Request a Download
                   </CardTitle>
                   <CardDescription>
-                    Request a download and make sure to select 'JSON' as the
-                    format. You only need the 'followers_and_following' data.
+                    Request a download and make sure to select &apos;JSON&apos; as the
+                    format. You only need the &apos;followers_and_following&apos; data.
                   </CardDescription>
                 </CardHeader>
               </Card>
@@ -95,8 +95,8 @@ export default function Home() {
                     4. Upload Your Files
                   </CardTitle>
                   <CardDescription>
-                    Once your download is ready, you'll receive an email.
-                    Download the zip file, extract it, and you'll find the{' '}
+                    Once your download is ready, you&apos;ll receive an email.
+                    Download the zip file, extract it, and you&apos;ll find the{' '}
                     <code>followers.json</code> and <code>following.json</code>{' '}
                     files inside the <code>followers_and_following</code>{' '}
                     folder. Upload them on our calculate page.
